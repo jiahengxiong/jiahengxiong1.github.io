@@ -23,7 +23,7 @@ I am a 2nd year PhD Student in Telecommunications at Politecnico di Milano, unde
 
 My work is mostly focused the integration of Machine Learning with communications network optimization, management, and control. How to design intelligent learning agents that can autonomously manage and control a network? How do they compare with classical optimization techniques? I wrote a couple of papers exploring these broad questions.
 
-I am currently collaborating with [Prof. Vittorio Degli Esposti](https://www.unibo.it/sitoweb/v.degliesposti/en) within [COST CA20120 INTERACT](https://interactca20120.org), and with [Prof. Walter Cerroni](https://www.unibo.it/sitoweb/walter.cerroni) for developing intelligent orchestrators for edge/fog networks.
+I am currently collaborating with [Prof. Vittorio Degli Esposti](https://www.unibo.it/sitoweb/v.degliesposti/en) within [COST CA20120 INTERACT](https://interactca20120.org), and with [Prof. Walter Cerroni](https://www.unibo.it/sitoweb/walter.cerroni/en) for developing intelligent orchestrators for edge/fog networks.
 
 I hold a MSc Degree in The Legend of Zelda: Tears of the Kingdom and a PhD Degree in Elden Ring (pure strength build). I am currently pursuing my MBA Degree in Diablo IV, with a minor in Darkest Dungeons.
 
