@@ -19,7 +19,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a 2nd year PhD Student in Telecommunications at Politecnico di Milano, under the supervision of [Prof. Massimo Tornatore](https://tornatore.faculty.polimi.it) (blessed be). 
+I am a 2nd year PhD Student in Telecommunications at Politecnico di Milano, under the supervision of [Prof. Massimo Tornatore](https://tornatore.faculty.polimi.it). 
 
 My work is mostly focused the integration of Machine Learning with communications network optimization, management, and control. How to design intelligent learning agents that can autonomously manage and control a network? How do they compare with classical optimization techniques? I wrote a couple of papers exploring these broad questions.
 
