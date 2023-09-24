@@ -7,21 +7,23 @@
 "IEEE JSTQE":
   url: https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=2944
 
-"IEEE NetSoft’23":
+"IEEE NetSoft":
   url: https://netsoft2023.ieee-netsoft.org
-  #color: "#00369f"
 
-"IEEE ICC’23":
+"IEEE ICC":
   url: https://icc2023.ieee-icc.org
 
-"EuCAP’23":
+"EuCAP":
   url: https://www.eucap2023.org
 
-"ONDM'22":
+"ONDM":
   url: https://ondm2022.com
 
-"BalkanCom’22":
+"BalkanCom":
   url: https://www.balkancom.info/2022/
 
-"DRCN’21":
+"DRCN":
   url: https://www.drcn2021.polimi.it
+
+"ACM SIGCOMM":
+  url: https://conferences.sigcomm.org/sigcomm/2023/
