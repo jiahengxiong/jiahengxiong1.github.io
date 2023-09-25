@@ -1,5 +1,26 @@
 @string{aps = {American Physical Society,}}
 
+@inproceedings{dicicco2023sigcomm, 
+  bibtex_show={true},
+  author = {Di Cicco, Nicola and Al Sadi, Amir and Grasselli, Chiara and Melis, Andrea and Antichi, Gianni and Tornatore, Massimo}, 
+  title = {Poster: Continual Network Learning}, 
+  year = {2023},
+  isbn = {9798400702365}, 
+  publisher = {Association for Computing Machinery}, 
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3603269.3610855}, 
+  doi = {10.1145/3603269.3610855}, 
+  abstract = {We make a case for in-network Continual Learning as a solution for seamless adaptation to evolving network conditions without forgetting past experiences. We propose implementing Active Learning-based selective data filtering in the data plane, allowing for data-efficient continual updates. We explore relevant challenges and propose future research directions.}, 
+  booktitle = {Proceedings of the ACM SIGCOMM 2023 Conference},
+  abbr={ACM SIGCOMM},
+  pages = {1096-1098}, 
+  numpages = {3}, 
+  keywords = {continual learning, programmable data planes, in-network machine learning, active learning}, 
+  location = {New York, NY, USA},
+  series = {ACM SIGCOMM},
+  pdf={sigcomm23.pdf}
+}
+
 @ARTICLE{dicicco2023deepls,
   bibtex_show={true},
   selected={true},
@@ -16,19 +37,15 @@
 }
 
 @INPROCEEDINGS{dicicco2023netsoft,
+  abbr={IEEE NetSoft},
   selected={true},
   bibtex_show={true},
-  author={Di Cicco, Nicola and Pittalà, Gaetano Francesco and Davoli, Gianluca and Borsatti, Davide and Cerroni, Walter and Raffaelli, Carla and Tornatore, Massimo},
-  title={{DRL-FORCH:} A Scalable Deep Reinforcement Learning-based Fog Computing
-  Orchestrator},
-  booktitle={2023 IEEE 9th International Conference on Network Softwarization (NetSoft)
-  (NetSoft 2023)},
-  abbr={IEEE NetSoft},
+  author={Cicco, Nicola Di and Pittalà, Gaetano Francesco and Davoli, Gianluca and Borsatti, Davide and Cerroni, Walter and Raffaelli, Carla and Tornatore, Massimo},
+  booktitle={2023 IEEE 9th International Conference on Network Softwarization (NetSoft)}, 
+  title={DRL-FORCH: A Scalable Deep Reinforcement Learning-based Fog Computing Orchestrator}, 
   year={2023},
-  month=jun,
-  address={Madrid, Spain},
-  pages={9},
-  days={18},
+  pages={125-133},
+  doi={10.1109/NetSoft57336.2023.10175398},
   code={https://github.com/bonsai-lab-polimi/netsoft2023-drl-forch},
   pdf={netsoft23.pdf},
   abstract={We consider the problem of designing and training a neural network-based orchestrator for fog computing service deployment. Our goal is to train an orchestrator able to optimize diversified and competing QoS requirements, such as blocking probability and service delay, while potentially supporting thousands of fog nodes. To cope with said challenges, we implement our neural orchestrator as a Deep Set (DS) network operating on sets of fog nodes, and we leverage Deep Reinforcement Learning (DRL) with invalid action masking to find an optimal trade-off between competing objectives. Illustrative numerical results show that our Deep Set-based policy generalizes well to problem sizes (i.e., in terms of numbers of fog nodes) up to two orders of magnitude larger than the ones seen during the training phase, outperforming both greedy heuristics and traditional Multi-Layer Perceptron (MLP)-based DRL. In addition, inference times of our DS-based policy are up to an order of magnitude faster than an MLP, allowing for excellent scalability and near real-time online decision-making.},
@@ -41,7 +58,6 @@
   booktitle={2023 IEEE International Conference on Communications (ICC): Optical Networks and Systems Symposium (IEEE ICC'23 - ONS Symposium)},
   abbr={IEEE ICC},
   year={2023},
-  month={May},
   address={Rome, Italy},
   days={27},
   code={https://github.com/bonsai-lab-polimi/icc2023-qot-forecasting},
@@ -149,25 +165,4 @@
   keywords = {Reliable 5G-RAN, Lexicographic optimization, Network function migrations},
   pdf={comnet22carla.pdf},
   abstract = {Resource optimization in 5G Radio Access Networks (5G-RAN) has to face the dynamics over time in networks with increasing numbers of nodes and virtual network functions. In this context, multiple objectives need to be jointly optimized, and key application requirements such as latency must be enforced. In addition, virtual network functions realizing baseband processing are subject to failures of the cloud infrastructure, requiring an additional level of reliability. Overall, this is a complex problem to solve, requiring fast algorithms to cope with dynamic networks while avoiding resource overprovisioning. This paper considers the problem of optimal virtual function placement in 5G-RAN with reliability against a single DU Hotel failure and proposes a solution that takes service dynamics into account. Firstly, the joint optimization of the total number of DU Hotels, of the RU–DU latency and of the backup DU sharing in a static traffic scenario is considered, and the DUOpt algorithm, based on Lexicographic Optimization, is proposed for solving efficiently this multi-objective problem. DUOpt splits the multi-objective problem into smaller Integer Linear Programming (ILP) subproblems that are sequentially solved, adopting for each one the most effective methodology to reduce the total execution time. The proposed DUOpt algorithm is extensively benchmarked to show its effectiveness in optimization of medium to large size networks: in particular, it is shown to greatly outperform an aggregate multi-objective approach, being able to compute optimal or close to optimal solutions for networks of several tens of nodes in computing times of a few seconds. Then, the problem is extended to a dynamic traffic scenario in which optimization is performed over time. In this context, in addition to the aforementioned objectives, the total number of network function migrations induced by multiple reoptimizations must be kept to the minimum. For solving efficiently this problem the DUMig algorithm is proposed, which extends and improves DUOpt. Reoptimization over a time horizon of one day in an illustrative dynamic traffic scenario is performed to evaluate the proposed DUMig algorithm against DUOpt, the latter being oblivious of the traffic dynamics. DUMig shows remarkable savings in the total number of migrations (above 86.1\% for primary virtual functions and 83\% for backup virtual functions) compared to DUOpt, while preserving near-optimal resource assignment.}
-}
-
-@inproceedings{dicicco2023sigcomm, 
-  bibtex_show={true},
-  author = {Di Cicco, Nicola and Al Sadi, Amir and Grasselli, Chiara and Melis, Andrea and Antichi, Gianni and Tornatore, Massimo}, 
-  title = {Poster: Continual Network Learning}, 
-  year = {2023}, 
-  isbn = {9798400702365}, 
-  publisher = {Association for Computing Machinery}, 
-  address = {New York, NY, USA}, 
-  url = {https://doi.org/10.1145/3603269.3610855}, 
-  doi = {10.1145/3603269.3610855}, 
-  abstract = {We make a case for in-network Continual Learning as a solution for seamless adaptation to evolving network conditions without forgetting past experiences. We propose implementing Active Learning-based selective data filtering in the data plane, allowing for data-efficient continual updates. We explore relevant challenges and propose future research directions.}, 
-  booktitle = {Proceedings of the ACM SIGCOMM 2023 Conference},
-  abbr={ACM SIGCOMM},
-  pages = {1096-1098}, 
-  numpages = {3}, 
-  keywords = {continual learning, programmable data planes, in-network machine learning, active learning}, 
-  location = {New York, NY, USA},
-  series = {ACM SIGCOMM},
-  pdf={sigcomm23.pdf}
 }
