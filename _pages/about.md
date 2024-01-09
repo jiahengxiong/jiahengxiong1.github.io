@@ -19,7 +19,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a 2nd year PhD Student in Telecommunications at Politecnico di Milano under the supervision of [Prof. Massimo Tornatore](https://tornatore.faculty.polimi.it). 
+I am a final-year PhD Student in Telecommunications at Politecnico di Milano under the supervision of [Prof. Massimo Tornatore](https://tornatore.faculty.polimi.it). 
 
 I am currently an [NGI Enrichers Fellow](https://enrichers.ngi.eu) at Columbia University under the supervision of [Prof. Gil Zussman](https://wimnet.ee.columbia.edu/people/gil-zussman/).
 
